@@ -48,4 +48,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Hat tip to Microverse
+- Background pattern [subtlepatterns](www.subtlepatterns.com)
+- Icons [icon8](https://icons8.com/)
+- images [unsplash](https://unsplash.com/)
 - Inspiration design from [Cindy Shin in Behance](https://www.behance.net/adagio07)
