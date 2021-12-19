@@ -52,3 +52,4 @@ Give a ⭐️ if you like this project!
 - Icons [icon8](https://icons8.com/)
 - images [unsplash](https://unsplash.com/)
 - Inspiration design from [Cindy Shin in Behance](https://www.behance.net/adagio07)
+- [cdnFont](https://www.cdnfonts.com/cocogoose.font)
