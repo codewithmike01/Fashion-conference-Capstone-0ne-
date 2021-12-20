@@ -574,13 +574,6 @@ main {
 /* MEDIA QUERY */
 
 @media (min-width: 768px) {
-  :root {
-    --sm-text: 1.3em;
-    --md-text: 1.7em;
-    --lg-text: 2.6em;
-    --btn-font: 1.4em;
-  }
-
   .foot-about {
     display: none;
   }
@@ -693,7 +686,7 @@ main {
   header {
     height: 760px;
     background-size: cover;
-    background-position-y: -29%;
+    background-position-y: -60%;
   }
 
   .showcase {
@@ -720,6 +713,7 @@ main {
     justify-content: center;
     gap: 0;
     gap: 10px;
+    margin-bottom: 90px;
   }
 
   .program-list li {
@@ -728,7 +722,8 @@ main {
     gap: 0;
     gap: 15px;
     width: 30%;
-    height: 260px;
+    height: 280px;
+    max-height: 320px;
   }
 
   .program-list li img {
