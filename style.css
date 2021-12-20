@@ -3,7 +3,7 @@
   --secondary-color: #ec5242;
   --fade-text: #d3d3d3;
   --sm-text: 1.1em;
-  --md-text: 1.6em;
+  --md-text: 1.5em;
   --lg-text: 2.1em;
   --btn-font: 1.2em;
   --font-big: 'COCOGOOSE', sans-serif;
@@ -37,6 +37,7 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   height: 620px;
+  padding-bottom: 10px;
   z-index: 1;
 }
 
@@ -136,7 +137,7 @@ nav {
 }
 
 .showcase {
-  margin-top: 50px;
+  margin-top: 35px;
   padding: 40px 15px;
 }
 
@@ -148,8 +149,9 @@ nav {
 }
 
 .showcase h1 {
+  margin-bottom: 10px;
   font-family: var(--font-big);
-  font-size: 2em;
+  font-size: var(--md-text);
   line-height: 1.1em;
   background-image: url(./images/textBack.jpg);
   background-repeat: no-repeat;
@@ -161,7 +163,8 @@ nav {
   -webkit-text-fill-color: transparent;
 }
 
-.para-border {
+.para-border,
+.para-border-about {
   font-family: var(--font-sm);
   padding: 20px 12px;
   margin-top: 20px;
@@ -250,7 +253,7 @@ main {
 .close-foot h3,
 .rights h4 {
   font-family: var(--btn-font);
-  font-size: var(--lg-text);
+  font-size: var(--md-text);
   color: var(--secondary-color);
   text-align: center;
 }
@@ -269,6 +272,24 @@ main {
 
 .rights p {
   text-align: center;
+}
+
+.para-border-about p {
+  text-align: center;
+}
+
+.card-one p,
+.card-two p {
+  z-index: 2;
+  font-weight: bold;
+  font-size: 0.8em;
+  width: 100%;
+}
+
+.create-common > p,
+.past-reviews > p {
+  line-height: 28px;
+  margin-bottom: 35px;
 }
 
 .program-list li p {
@@ -407,7 +428,8 @@ main {
   font-size: var(--md-text);
   font-weight: bold;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
   gap: 30px;
   text-transform: uppercase;
@@ -415,9 +437,11 @@ main {
 
 #stitch-up {
   font-family: var(--font-sm);
+  font-size: 0.8em;
 }
 
 #Air-up {
+  font-size: 0.8em;
   font-weight: 500;
   font-family: 'Twinkle Star', cursive;
 }
@@ -425,6 +449,7 @@ main {
 #Mozzi-up {
   font-weight: 400;
   font-family: var(--font-big);
+  font-size: 0.8em;
 }
 
 .close-foot {
@@ -436,4 +461,76 @@ main {
 
 .rights span {
   color: var(--secondary-color);
+}
+
+.contact-us {
+  font-size: var(--sm-text);
+  text-align: center;
+  line-height: 24px;
+}
+
+.create-common,
+.past-reviews {
+  background-color: #fff;
+  text-align: center;
+  padding: 40px 20px;
+  font-size: var(--md-text);
+}
+
+.create-common h1,
+.past-reviews h1 {
+  font-size: var(--md-text);
+}
+
+.create-common > div,
+.past-reviews > div {
+  margin: 18px auto;
+}
+
+.create-common > hr {
+  margin-top: 40px;
+}
+
+.card-logo {
+  margin-top: 30px;
+  padding: 15px 25px;
+  border: 2px solid rgb(206, 202, 202);
+  font-family: 'Twinkle Star', cursive;
+}
+
+.card-one,
+.card-two {
+  position: relative;
+  color: #fff;
+  text-align: center;
+  padding: 45px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.card-one {
+  background-image: url(./images/conONe.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: calc(100% + 100px);
+}
+
+.card-two {
+  background-image: url(./images/conTwo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: calc(100% + 100px);
+}
+
+.cardBg {
+  background-color: rgba(228, 22, 22, 0.5);
+  background-blend-mode: multiply;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
