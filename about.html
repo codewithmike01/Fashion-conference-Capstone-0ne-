@@ -30,13 +30,13 @@
   <body>
     <header>
       <div class="bg"></div>
-      <div class="ham index">
+      <div id="ham-open" class="ham index">
         <span></span>
         <span></span>
         <span></span>
       </div>
-      <div class="link-and-nav">
-        <div class="social-link hide-mobile">
+      <div id="link-and-nav" class="link-and-nav hide-mobile">
+        <div class="social-link">
           <ul>
             <li>
               <a href="#">
@@ -59,12 +59,16 @@
             <li><a href="#">English</a></li>
           </ul>
         </div>
-        <nav class="hide-mobile">
+        <nav>
           <div class="nav-bar">
-            <div class="logo"><a href="./index.html">Touch-Stiches</a></div>
-            <div class="nav-menu hide-mobile">
-              <ul class="na-link-head">
-                <li><a href="#">About</a></li>
+            <div class="logo-cancel">
+              <div class="logo"><a href="./index.html">Touch-Stiches</a></div>
+              <div id="cancel-ham" class="close">&times;</div>
+            </div>
+
+            <div class="nav-menu">
+              <ul class="nav-link-head">
+                <li><a href="./about.html">About</a></li>
                 <li><a href="#">Program</a></li>
                 <li><a href="#">Join</a></li>
                 <li><a href="#">Sponsor</a></li>
@@ -77,7 +81,6 @@
           </div>
         </nav>
       </div>
-
       <div class="showcase index">
         <blockquote>&ldquo; Hello! Fashion Peeps &rdquo;</blockquote>
         <h1>CREATIVE STITCHES GLOBAL CONFERENCE 2021</h1>

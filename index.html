@@ -30,13 +30,13 @@
   <body>
     <header>
       <div class="bg"></div>
-      <div class="ham index">
+      <div id="ham-open" class="ham index">
         <span></span>
         <span></span>
         <span></span>
       </div>
-      <div class="link-and-nav">
-        <div class="social-link hide-mobile">
+      <div id="link-and-nav" class="link-and-nav hide-mobile">
+        <div class="social-link">
           <ul>
             <li>
               <a href="#">
@@ -59,10 +59,14 @@
             <li><a href="#">English</a></li>
           </ul>
         </div>
-        <nav class="hide-mobile">
+        <nav>
           <div class="nav-bar">
-            <div class="logo"><a href="./index.html">Touch-Stiches</a></div>
-            <div class="nav-menu hide-mobile">
+            <div class="logo-cancel">
+              <div class="logo"><a href="./index.html">Touch-Stiches</a></div>
+              <div id="cancel-ham" class="close">&times;</div>
+            </div>
+
+            <div class="nav-menu">
               <ul class="nav-link-head">
                 <li><a href="./about.html">About</a></li>
                 <li><a href="#">Program</a></li>
@@ -155,127 +159,12 @@
           <h1>Featured Speakers</h1>
           <div class="sm-line"></div>
         </div>
-        <div class="speakers">
-          <ul>
-            <!-- Speaker 1 -->
-            <li class="flex">
-              <div class="speaker-img">
-                <img src="./images/guestOne.jpg" alt="speaker John" />
-              </div>
-              <div class="speaker-details">
-                <h3>John Deo</h3>
-                <div class="para-speaker"></div>
-                <div class="speaker-style">
-                  <p>Well known Fashion tycoon, with blinding dress style</p>
-                  <div class="ssm-line"></div>
-                </div>
-                <p class="speaker-edu">
-                  Deo studed fashion in bakely college of fashion freaks
-                </p>
-              </div>
-            </li>
-
-            <!-- Speaker 2 -->
-            <li class="flex">
-              <div class="speaker-img">
-                <img src="./images/guestTwo.jpg" alt="speaker John" />
-              </div>
-              <div class="speaker-details">
-                <h3>Albert Ishmil</h3>
-                <div class="para-speaker"></div>
-                <div class="speaker-style">
-                  <p>
-                    Blazing Hot and always ready to slay aka (The ladies Man)
-                  </p>
-                  <div class="ssm-line"></div>
-                </div>
-                <p class="speaker-edu">
-                  Ishmil studied fashion in hervard university south carolina
-                </p>
-              </div>
-            </li>
-            <!-- Speaker 3 -->
-            <li class="flex hide-speaker">
-              <div class="speaker-img">
-                <img src="./images/guestThree.jpg" alt="speaker John" />
-              </div>
-              <div class="speaker-details">
-                <h3>Albert Roseline</h3>
-                <div class="para-speaker"></div>
-                <div class="speaker-style">
-                  <p>
-                    Lady boss, a two times award fahionist, with jaw dropping
-                    looks
-                  </p>
-                  <div class="ssm-line"></div>
-                </div>
-                <p class="speaker-edu">
-                  Roseline studied fabrics design at oxford university, west
-                  London
-                </p>
-              </div>
-            </li>
-
-            <!-- Speaker 4-->
-            <li class="flex hide-speaker">
-              <div class="speaker-img">
-                <img src="./images/guestFour.jpg" alt="speaker" />
-              </div>
-              <div class="speaker-details">
-                <h3>Rasheed Rehene</h3>
-                <div class="para-speaker"></div>
-                <div class="speaker-style">
-                  <p>An indian fashionist and CEO of hid-Fashion Limited</p>
-                  <div class="ssm-line"></div>
-                </div>
-                <p class="speaker-edu">
-                  Rehene studied fashion in hervard university south carolina
-                </p>
-              </div>
-            </li>
-
-            <!-- Speaker 5-->
-            <li class="flex hide-speaker">
-              <div class="speaker-img">
-                <img src="./images/guestFive.jpg" alt="speaker John" />
-              </div>
-              <div class="speaker-details">
-                <h3>Mogile Jane</h3>
-                <div class="para-speaker"></div>
-                <div class="speaker-style">
-                  <p>Number one art professional</p>
-                  <div class="ssm-line"></div>
-                </div>
-                <p class="speaker-edu">
-                  Jabe studied art in hervard university, south carolina
-                </p>
-              </div>
-            </li>
-
-            <!-- Speaker 6-->
-            <li class="flex hide-speaker">
-              <div class="speaker-img">
-                <img src="./images/guestSix.jpg" alt="speaker John" />
-              </div>
-              <div class="speaker-details">
-                <h3>Krika Kishu</h3>
-                <div class="para-speaker"></div>
-                <div class="speaker-style">
-                  <p>CEO of Reneg with golden stitch</p>
-                  <div class="ssm-line"></div>
-                </div>
-                <p class="speaker-edu">
-                  Kishu studied fashion in miami, south pablo
-                </p>
-              </div>
-            </li>
-          </ul>
-          <div class="see-more">
+        <div id="speak" class="speakers"></div>
+      </section>
+      <!-- <div class="see-more">
             <h3 class="hide-on-desktop">MORE</h3>
             <span class="hide-on-desktop"> &rsaquo;</span>
-          </div>
-        </div>
-      </section>
+          </div> -->
     </main>
 
     <footer>
