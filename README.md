@@ -4,7 +4,7 @@ This is a capstone project developed as a requirement in Microverse.
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-Additional description about the project and its features.
+Live Preview of Project [Link](https://ginohmk.github.io/Fashion-conference-Capstone-0ne-/)
 
 ## Built With
 
@@ -48,4 +48,8 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Hat tip to Microverse
+- Background pattern [subtlepatterns](www.subtlepatterns.com)
+- Icons [icon8](https://icons8.com/)
+- images [unsplash](https://unsplash.com/)
 - Inspiration design from [Cindy Shin in Behance](https://www.behance.net/adagio07)
+- [cdnFont](https://www.cdnfonts.com/cocogoose.font)
