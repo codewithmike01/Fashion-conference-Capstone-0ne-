@@ -395,6 +395,11 @@ main {
   margin-bottom: 35px;
 }
 
+.contact-us p {
+  font-size: var(--ss-text);
+  line-height: 28px;
+}
+
 .program-list .li p {
   color: var(--fade-text);
   font-weight: bold;
@@ -573,6 +578,7 @@ main {
   padding-bottom: 50px;
 }
 
+.main-about-add,
 .create-common,
 .past-reviews {
   background-color: #fff;
@@ -687,10 +693,11 @@ main {
   }
 
   .social-link {
+    padding: 0;
     background-color: #fff;
     display: flex;
     justify-content: flex-end;
-    padding-right: 9.5%;
+    padding-right: 5.4%;
   }
 
   .logo a {
@@ -743,7 +750,7 @@ main {
     align-items: center;
     gap: 20px;
     width: 90%;
-    max-width: 1260px;
+    max-width: 1666px;
     margin: 0 auto;
   }
 
@@ -756,17 +763,17 @@ main {
   .logo-cancel {
     display: flex;
     align-items: center;
-    width: 30%;
     margin: 0;
     margin-bottom: 6px;
+    width: 30%;
   }
 
   .nav-menu {
-    width: 65%;
     margin: 0;
     flex-direction: row;
     align-items: center;
-    gap: 35px;
+    justify-content: flex-end;
+    gap: 55px;
   }
 
   .nav-bar ul {
@@ -894,10 +901,23 @@ main {
     background-color: var(--main-color);
   }
 
+  .main-about-add,
   .create-common,
   .past-reviews {
     width: 80%;
     margin: 0 auto;
+  }
+
+  .main-about-add {
+    line-height: 28px;
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .pabout {
+    border: 2px solid rgb(214, 209, 209);
+    padding: 30px 40px;
+    margin-bottom: 20px;
   }
 
   .card-preview {

@@ -2,6 +2,8 @@ const ham = document.getElementById('ham-open');
 const cancel = document.getElementById('cancel-ham');
 const nav = document.getElementById('link-and-nav');
 const speaker = document.getElementById('speak');
+const logoClick = document.getElementById('logo-click');
+const menu = Array.from(document.getElementsByClassName('menu-navigator'));
 let check = true;
 const li = document.createElement('li');
 li.setAttribute('class', 'flex');
@@ -15,7 +17,10 @@ function closeOpenHam() {
 // Event Lisner for Ham and Close buttons
 ham.addEventListener('click', closeOpenHam);
 cancel.addEventListener('click', closeOpenHam);
-
+logoClick.addEventListener('click', closeOpenHam);
+Object.keys(menu).forEach((m) => {
+  menu[m].addEventListener('click', closeOpenHam);
+});
 // Object to store speakers
 const speakersObj = {
   speakerOne: {
