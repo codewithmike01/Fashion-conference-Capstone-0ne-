@@ -591,6 +591,18 @@ main {
   font-size: var(--md-text);
 }
 
+.main-about-add {
+  line-height: 28px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.pabout {
+  border: 2px solid rgb(214, 209, 209);
+  padding: 30px 40px;
+  margin-bottom: 20px;
+}
+
 .create-common h1,
 .past-reviews h1 {
   font-size: var(--md-text);
