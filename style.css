@@ -537,13 +537,15 @@ main {
   font-size: 0.8em;
 }
 
-#Air-up {
+#Air-up,
+#Air-ups {
   font-size: 0.8em;
   font-weight: 500;
   font-family: 'Twinkle Star', cursive;
 }
 
-#Mozzi-up {
+#Mozzi-up,
+#Mozzi-ups {
   font-weight: 400;
   font-family: var(--font-big);
   font-size: 0.8em;
