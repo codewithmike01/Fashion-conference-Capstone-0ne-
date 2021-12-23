@@ -129,7 +129,7 @@ header {
 
 .summit a {
   text-decoration: none;
-  padding: 15px 20px;
+  padding: 20px;
   background-color: var(--secondary-color);
   color: #fff;
   font-size: var(--btn-font);
@@ -159,7 +159,7 @@ ul li {
 
 .program-list .li {
   background-color: rgba(44, 44, 58, 0.7);
-  padding: 11px 3px;
+  padding: 20px 8px;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -395,13 +395,20 @@ main {
   margin-bottom: 35px;
 }
 
+.contact-us p {
+  font-size: var(--ss-text);
+  line-height: 28px;
+}
+
 .program-list .li p {
   color: var(--fade-text);
   font-weight: bold;
 }
 
 .summit {
+  margin: 0 auto;
   margin-top: 40px;
+  width: 90%;
   text-align: center;
 }
 
@@ -532,13 +539,15 @@ main {
   font-size: 0.8em;
 }
 
-#Air-up {
+#Air-up,
+#Air-ups {
   font-size: 0.8em;
   font-weight: 500;
   font-family: 'Twinkle Star', cursive;
 }
 
-#Mozzi-up {
+#Mozzi-up,
+#Mozzi-ups {
   font-weight: 400;
   font-family: var(--font-big);
   font-size: 0.8em;
@@ -573,6 +582,7 @@ main {
   padding-bottom: 50px;
 }
 
+.main-about-add,
 .create-common,
 .past-reviews {
   background-color: #fff;
@@ -687,10 +697,11 @@ main {
   }
 
   .social-link {
+    padding: 0;
     background-color: #fff;
     display: flex;
     justify-content: flex-end;
-    padding-right: 9.5%;
+    padding-right: 5.4%;
   }
 
   .logo a {
@@ -743,7 +754,7 @@ main {
     align-items: center;
     gap: 20px;
     width: 90%;
-    max-width: 1260px;
+    max-width: 1666px;
     margin: 0 auto;
   }
 
@@ -756,17 +767,17 @@ main {
   .logo-cancel {
     display: flex;
     align-items: center;
-    width: 30%;
     margin: 0;
     margin-bottom: 6px;
+    width: 30%;
   }
 
   .nav-menu {
-    width: 65%;
     margin: 0;
     flex-direction: row;
     align-items: center;
-    gap: 35px;
+    justify-content: flex-end;
+    gap: 55px;
   }
 
   .nav-bar ul {
@@ -894,10 +905,23 @@ main {
     background-color: var(--main-color);
   }
 
+  .main-about-add,
   .create-common,
   .past-reviews {
     width: 80%;
     margin: 0 auto;
+  }
+
+  .main-about-add {
+    line-height: 28px;
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .pabout {
+    border: 2px solid rgb(214, 209, 209);
+    padding: 30px 40px;
+    margin-bottom: 20px;
   }
 
   .card-preview {
