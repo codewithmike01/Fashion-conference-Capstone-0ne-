@@ -129,7 +129,7 @@ header {
 
 .summit a {
   text-decoration: none;
-  padding: 15px 20px;
+  padding: 20px;
   background-color: var(--secondary-color);
   color: #fff;
   font-size: var(--btn-font);
@@ -159,7 +159,7 @@ ul li {
 
 .program-list .li {
   background-color: rgba(44, 44, 58, 0.7);
-  padding: 11px 3px;
+  padding: 20px 8px;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -406,7 +406,9 @@ main {
 }
 
 .summit {
+  margin: 0 auto;
   margin-top: 40px;
+  width: 90%;
   text-align: center;
 }
 
