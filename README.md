@@ -9,7 +9,7 @@ Live Preview of Project [Link](https://ginohmk.github.io/Fashion-conference-Caps
 ## Built With
 
 - HTML, CSS and JAVASCRIPT
-- [Live]()
+- [Live](https://ginohmk.github.io/Fashion-conference-Capstone-0ne-/)
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
