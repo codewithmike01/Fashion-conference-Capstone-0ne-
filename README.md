@@ -4,6 +4,8 @@ This is a capstone project developed as a requirement in Microverse.
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
+![fashion](https://user-images.githubusercontent.com/58771507/154756890-a2cafb65-f11e-4aba-9a20-7d3a42f1fb8f.PNG)
+<br> <br> 
 Live Preview of Project [Link](https://ginohmk.github.io/Fashion-conference-Capstone-0ne-/)
 
 ## Built With
